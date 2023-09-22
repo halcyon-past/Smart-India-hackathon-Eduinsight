@@ -4,3 +4,4 @@ flask_cors
 pandas
 joblib
 requests
+sklearn
