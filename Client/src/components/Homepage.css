@@ -1,0 +1,65 @@
+.home{
+    background-image: linear-gradient(to right, #adbcf7, #ea8895);
+    height: calc(100vh - 10rem);
+    border-radius: 0rem 0rem 18.75rem 0rem;
+    overflow: hidden;
+}
+
+.home .btn{
+    border-radius: 1.875rem 1.875rem 1.875rem 0rem;
+    margin-right: 10px;
+}
+
+.image-content{
+    animation: animate 10s ease-in-out infinite;
+}
+
+.tracks .card{
+  border-radius: 20px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  23px 23px 46px #c1c1c1,
+             -23px -23px 46px #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.tracks .card button{
+  border-radius: 20px;
+  background: orange;
+  box-shadow:  23px 23px 46px #c1c1c1,
+             -23px -23px 46px #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.tracks .card:hover{
+  border-radius: 20px;
+  box-shadow:  8px 8px 16px #c1c1c1,
+             -8px -8px 16px #ffffff;
+}
+
+.tracks .card:hover button{
+  border-radius: 25px;
+  box-shadow:  50px 50px 100px #b5b5b5,
+             -50px -50px 100px #ffffff;
+}
+
+.tracks button:hover{
+  background-color: orangered;
+}
+
+@keyframes animate {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translate(10px, -10px);
+    }
+    50% {
+      transform: translate(-10px, -10px);
+    }
+    75% {
+      transform: translate(10px, 10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
