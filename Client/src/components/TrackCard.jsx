@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom"
 import PropTypes from 'prop-types'
 
 function TrackCard(props) {
@@ -15,7 +16,7 @@ function TrackCard(props) {
             <div className="content my-3 mx-2">
                 {data.description}
             </div>
-            <button className="absolute bg-orange-600 hover:bg-orange-700 ease-in-out duration-300 text-white w-40 h-10 rounded-full bottom-0 left-1/2 translate-x-[-50%] translate-y-[50%]">Know More</button>
+            <Link to={data.path} className="absolute flex justify-center items-center bg-orange-600 hover:bg-orange-700 ease-in-out duration-300 text-white w-40 h-10 rounded-full bottom-0 left-1/2 translate-x-[-50%] translate-y-[50%]">Know More</Link>
         </div>
     </div>
   )
