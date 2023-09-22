@@ -46,6 +46,10 @@
   background-color: orangered;
 }
 
+.tracks .card:hover img{
+  transform: scale(1.2);
+}
+
 @keyframes animate {
     0% {
       transform: translateY(0);

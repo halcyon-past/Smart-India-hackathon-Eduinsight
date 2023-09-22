@@ -6,7 +6,9 @@ function TrackCard(props) {
 
   return (
     <div className="card h-[400px] w-72 m-5 mb-10 flex flex-col flex-start relative">
-        <img className="w-full h-40 rounded-t-[20px]" src={data.image} alt="img"/>
+        <div className="img-container w-full h-40 rounded-t-[20px] overflow-hidden">
+            <img className="w-full h-full ease-in-out duration-300" src={data.image} alt="img"/>
+        </div>
         <div className="text">
             <div className="text-1 my-2 mx-2">{data.title}</div>
             <div className="w-full h-[1px] border-[#2b2b2b55] border-b-2 border-dashed"></div>
