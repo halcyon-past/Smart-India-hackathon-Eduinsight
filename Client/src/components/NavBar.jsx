@@ -17,7 +17,7 @@ function NavBar() {
                 <Link to="/">Home</Link>
                 <Link to="/comingsoon">About</Link>
                 <Link to="/predict">Prediction</Link>
-                <Link to="/comingsoon">Blog</Link>
+                <Link to="/comingsoon">Forum</Link>
                 <Link to="/comingsoon">FAQ</Link>
                 <Link to="/comingsoon">Donation</Link>
                 <Link to="/comingsoon">Contact</Link>
