@@ -35,7 +35,7 @@ function Prediction() {
         console.log(FormData);
 
         try {
-            const response = await axios.post('http://localhost:5000/predict', dataToSend);
+            const response = await axios.post('https://eduinsight.onrender.com/predict', dataToSend);
       
             console.log(response.data);
             if (response.data) {
